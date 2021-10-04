@@ -3,12 +3,13 @@ import { NavLink } from 'react-router-dom';
 
 const Header = () => {
     const activeStyle = {
-        fontWeight: "bold",
-        color: "yellow"
+        color: "red",
+        backgroundColor: "white",
+        borderRadius: "10px"
     };
     return (
         <div>
-            <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
+            <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
                 <div className="container">
                     <NavLink className="navbar-brand fw-bold fs-2 text-warning" to="/home">WebDev</NavLink>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">

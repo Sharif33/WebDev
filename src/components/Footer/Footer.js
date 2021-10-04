@@ -3,8 +3,8 @@ import React from 'react';
 const Footer = () => {
     return (
         <div>
-            <footer className="bg-primary">
-                <div className="row row-cols-1 row-cols-md-3 m-2 g-4 px-4 text-white">
+            <footer className="bg-dark">
+                <div className="row row-cols-1 row-cols-md-3 mx-2 mt-2 g-4 px-4 text-white border-bottom">
                     <div className="p-4">
                         <h4 className="border-bottom pb-2">Our Services</h4>
                         <ul>
@@ -17,19 +17,22 @@ const Footer = () => {
                         </ul>
                     </div>
                     <div className="p-4">
-                        <h4 className="border-bottom pb-2">Our Services</h4>
-                        <p>Eastern Housing, Dhaka, Bangladesh</p>
-                        <p>info123@webdev.com</p>
-                        <p>+880 123-456-789</p>
-                        <p>+880 456-123-987</p>
+                        <h4 className="border-bottom pb-2">Contact US</h4>
+                        <p><i className="fas fa-map-marker-alt"></i> Eastern Housing, Dhaka, Bangladesh</p>
+                        <p><i className="fas fa-envelope"></i> info123@webdev.com</p>
+                        <p><i className="fas fa-phone-alt"></i> +880 123-456-789</p>
+                        <p><i className="fas fa-phone-alt"></i> +880 456-123-987</p>
                     </div>
                     <div className="p-4">
                         <h4 className="border-bottom pb-2">Subscribe</h4>
                         <div className="input-group input-group-lg">
-                            <input type="text" className="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" />
+                            <input type="text" placeholder="Enter Email" className="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" />
                             <span className="input-group-text btn-danger btn" id="inputGroup-sizing-lg">Subscribe</span>
                         </div>
                     </div>
+                </div>
+                <div className="text-light text-center p-4">
+                    <p>Copyright <span>&copy;</span>2021 <span className="text-warning">WebDev.</span> All rights reserved.</p>
                 </div>
             </footer>
         </div>

@@ -13,7 +13,8 @@ const Services = () => {
     }, [])
     return (
         <div className="container">
-            <div className="row row-cols-2 row-cols-md-4 m-2 g-4">
+            <h4 className="text-center fw-bold border-bottom p-4">All WebDev Courses with Details</h4>
+            <div className="row row-cols-2 row-cols-md-3 m-2 g-4">
                 {
                     services.map(service => <Service
                         key={service.id}
