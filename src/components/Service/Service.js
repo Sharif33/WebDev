@@ -4,7 +4,7 @@ const Service = (props) => {
     const { image, courses, instructor, title, description, time, duration, price, contact } = props.service;
     return (
         <div>
-            <div className="col">
+            <div className="col shadow rounded">
                 <div className="card h-100">
                     <img src={image} className="card-img-top" alt="" />
                     <div className="p-4">

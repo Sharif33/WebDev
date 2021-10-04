@@ -11,7 +11,7 @@ const Banner = () => {
     return (
         <div className="background">
             <div className="text-center pt-3">
-                <h1 className="font-web fw-bold text-warning"> <span className=" border-bottom border-info">Web</span><span className="text-info border-bottom  border-warning mt-2">Dev</span></h1>
+                <h1 className="font-web fw-bold text-warning"> <span className=" border-bottom border-info">Web</span><span className="text-info border-top  border-warning mt-2">Dev</span></h1>
                 <small className="text-info">To increase your Web Development Skills.</small>
             </div>
             <div className="text-center text-white p-5">

@@ -4,13 +4,13 @@ const Course = (props) => {
     const { image, courses, instructor, title, star, rating, time, duration, price, contact } = props.course;
     return (
         <div>
-            <div className="col">
+            <div className="col shadow rounded">
                 <div className="card h-100">
                     <img src={image} className="card-img-top" alt="" />
                     <div className="p-4">
                         <h6 className="text-secondary">{courses}</h6>
                         <div className="d-flex justify-content-between align-items-center">
-                            <small className="fw-bold"> {star}.0 <span className="text-warning"><i className="fas fa-star"></i>
+                            <small className="fw-bold text-secondary"> {star}.0 <span className="text-warning"><i className="fas fa-star"></i>
                                 <i className="fas fa-star"></i>
                                 <i className="fas fa-star"></i>
                                 <i className="fas fa-star"></i>
