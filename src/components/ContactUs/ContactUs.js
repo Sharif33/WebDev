@@ -1,10 +1,9 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 const ContactUs = () => {
     return (
         <div className="bg-light pb-4">
-            <div className="text-center border-bottom p-4 container">
+            <div className="text-center border-bottom border-success p-4 container">
                 <h1>Contact Us</h1>
             </div>
 

@@ -20,7 +20,7 @@ const Courses = () => {
     return (
         <div className="bg-light">
             <div className="container">
-                <h3 className="text-center border-bottom p-4 fw-bold">Top Wev Development Courses</h3>
+                <h3 className="text-center text-warning border-bottom border-info p-4 fw-bold">Top Web Development Courses</h3>
                 <div className="row row-cols-2 row-cols-md-4 m-2 g-4">
                     {
                         courses.slice(0, 4).map(course => <Course

@@ -1,10 +1,8 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-
 const AboutUs = () => {
     return (
         <div className="bg-light">
-            <div className="text-center border-bottom container mb-4 p-4">
+            <div className="text-center border-bottom border-warning container mb-4 p-4">
                 <h3 className="fw-bold">About Us</h3>
             </div>
             <div className="p-5 bg-white border shadow text-center">

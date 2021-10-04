@@ -3,8 +3,8 @@ import { NavLink } from 'react-router-dom';
 
 const Header = () => {
     const activeStyle = {
-        color: "red",
-        backgroundColor: "white",
+        color: "yellow",
+        borderBottom: "2px solid orange",
         borderRadius: "10px"
     };
     return (
@@ -18,16 +18,16 @@ const Header = () => {
                     <div className="collapse navbar-collapse" id="navbarNavDropdown">
                         <ul className="navbar-nav ms-auto">
                             <li className="nav-item">
-                                <NavLink activeStyle={activeStyle} className="nav-link active mx-2 fs-4 " aria-current="page" to="/home">Home</NavLink>
+                                <NavLink activeStyle={activeStyle} className="nav-link active mx-3 fs-5 " aria-current="page" to="/home">Home</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink activeStyle={activeStyle} className="nav-link active mx-2 fs-4 " to="/about">About Us</NavLink>
+                                <NavLink activeStyle={activeStyle} className="nav-link active mx-3 fs-5 " to="/about">About Us</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink activeStyle={activeStyle} className="nav-link active mx-2 fs-4 " to="/services">Services</NavLink>
+                                <NavLink activeStyle={activeStyle} className="nav-link active mx-3 fs-5 " to="/services">Services</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink activeStyle={activeStyle} className="nav-link active mx-2 fs-4 " to="/contact">Contact Us</NavLink>
+                                <NavLink activeStyle={activeStyle} className="nav-link active mx-3 fs-5 " to="/contact">Contact Us</NavLink>
                             </li>
                         </ul>
                     </div>
